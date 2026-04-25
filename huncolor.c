@@ -9,8 +9,8 @@
 const char* aff_path = "/usr/share/hunspell/en_GB.aff";
 const char* dic_path = "/usr/share/hunspell/en_GB.dic";
 
-#define START "\033[1m"
-#define STOP "\033[22m"
+#define START "\033[4m"
+#define STOP "\033[24m"
 
 #define SMALLBUF 80
 
