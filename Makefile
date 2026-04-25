@@ -11,7 +11,7 @@ huncolor.o: huncolor.c
 	$(CC) $(CFLAGS) -c huncolor.c
 
 install: huncolor
-	install huncolor $(HOME)/bin
+	install huncolor $(HOME)/.bin
 
 clean:
 	rm -f huncolor huncolor.o
